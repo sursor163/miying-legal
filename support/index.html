@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>觅影 · 技术支持与常见问题 | Miying · Support</title>
+<title>觅影 · 技术支持与常见问题 | Shadowseek · Support</title>
 <style>
 :root{--ink:#1c1917;--muted:#6b6560;--line:#e7e2d9;--am:#b45309;--am2:#f59e0b;--bg:#fffdf8}
 *{box-sizing:border-box}
@@ -53,7 +53,12 @@ footer{margin-top:40px;color:var(--muted);font-size:13px}
     <details open>
       <summary>免费能用吗？免费试用的范围是什么？</summary>
       <p>可以。每台设备都享有<strong>一次</strong>免费试用机会，试用范围是<strong>当前自然月</strong>：你会得到所选地点当月的月均每日日照时长、每日明细和当天的阳光时段。</p>
-      <p>免费试用每次安装仅有一次，用完即止。免费试用不包含全年 12 个月报告，也不支持导出长图。</p>
+      <p>免费试用按<strong>设备</strong>计算：每台设备只有一次，用完即止，删除 App 后重新安装也不会再次获得。试用时只能测算<strong>当前自然月</strong>，不能自选其他月份；也不包含全年 12 个月报告，不支持导出长图。</p>
+    </details>
+
+    <details>
+      <summary>我删掉 App 重装后，为什么免费试用没有了？</summary>
+      <p>免费试用是按<strong>设备</strong>计算的，每台设备只能享受一次。该标记除了保存在 App 本地，还会写入 iOS 系统钥匙串（Keychain），因此删除并重新安装 App <strong>不会</strong>重置试用机会。这样做是为了防止通过反复重装无限次免费测算。若你确实遇到了异常（例如换了新手机但试用机会已用），请发邮件到 <a href="mailto:sursor@163.com">sursor@163.com</a> 说明情况。</p>
     </details>
 
     <details>
@@ -70,7 +75,7 @@ footer{margin-top:40px;color:var(--muted);font-size:13px}
 
     <details>
       <summary>我是按年订阅吗？会自动续费吗？</summary>
-      <p>不是订阅，<strong>不会自动续费，也不会重复扣款</strong>。每一次购买都是一次性的、可以明确预期的支出。购买价格以 App 内购买页显示的金额为准（各国家或地区价格由 App Store 按当地价格展示）。</p>
+      <p>不是订阅，<strong>不会自动续费</strong>，不存在到期扣款。但请注意本 App 是<strong>按次付费</strong>：每发起一次新的测算就需要付费一次；而已经生成并保存在历史记录里的报告，反复打开、反复导出长图都<strong>不会再扣款</strong>。每次付款金额固定、可预期，具体价格以 App 内购买页显示的金额为准（各国家或地区价格由 App Store 按当地价格展示）。</p>
     </details>
 
     <details>
@@ -94,14 +99,14 @@ footer{margin-top:40px;color:var(--muted);font-size:13px}
       <ol>
         <li>返回首页，查看历史记录列表最上方是否已新增一条记录（报告会立即保存）。</li>
         <li>完全退出 App（从后台向上划掉）后重新打开，App 会自动补发未完成的购买。</li>
-        <li>仍然没有的话，请在 App 内「设置 → 恢复购买」中点击一次。</li>
+        <li>仍然没有的话，请重启手机后再打开 App 一次——启动时 App 会自动向 App Store 校验并补发未完成的交易。</li>
         <li>以上都无效，请把 Apple 发给你的购买收据邮件转发到 <a href="mailto:sursor@163.com">sursor@163.com</a>，我们会为你处理。</li>
       </ol>
     </details>
 
     <details>
       <summary>换了新 iPhone，之前买的报告还能看吗？</summary>
-      <p>已生成的报告保存在原设备本地。如果你用同一 Apple ID 在 iPhone 之间做了整机迁移或从备份恢复，历史记录会一并带过去。由于本 App 不设账号也不上传数据，若你没有做备份，原设备上未迁移的记录无法找回，请留意。已购买但尚未生成报告的情况，可通过「恢复购买」找回。</p>
+      <p>已生成的报告保存在原设备本地。如果你用同一 Apple ID 在 iPhone 之间做了整机迁移或从备份恢复，历史记录会一并带过去。由于本 App 不设账号也不上传数据，若你没有做备份，原设备上未迁移的记录无法找回，请留意。如果你已完成付款却没有生成报告，请把 Apple 发给你的购买收据邮件转发到 <a href="mailto:sursor@163.com">sursor@163.com</a>，我们会协助你补发。</p>
     </details>
 
     <details>
@@ -141,7 +146,7 @@ footer{margin-top:40px;color:var(--muted);font-size:13px}
 
     <details>
       <summary>历史记录最多能存多少条？</summary>
-      <p>最多保留 100 条，超出后会提示你清理。你可以在首页左滑删除单条记录；已付费生成的报告建议保留，删除后需要重新购买才能再次生成。</p>
+      <p><strong>你付费生成的报告不会被自动清理</strong>，会一直保留到你自己删除。免费试用产生的记录最多保留 100 条，超出后会提示你清理。你可以在首页左滑删除任意一条记录，但请留意：付费报告删除后需要重新付费才能再次生成。</p>
     </details>
 
     <details>
@@ -153,7 +158,7 @@ footer{margin-top:40px;color:var(--muted);font-size:13px}
 
     <details>
       <summary>App 图标或名称会变吗？</summary>
-      <p>《觅影》的副标题为"采光计算专家"。名称与图标如发生变更，我们会在版本更新说明中告知，不影响你已购买的权益。</p>
+      <p>《觅影》（英文名 Shadowseek）的副标题为"采光计算专家"。名称与图标如发生变更，我们会在版本更新说明中告知，不影响你已购买的权益。</p>
     </details>
 
     <details>
@@ -175,7 +180,12 @@ footer{margin-top:40px;color:var(--muted);font-size:13px}
     <details open>
       <summary>Is there a free version? What does the free trial cover?</summary>
       <p>Yes. Each device gets <strong>one</strong> free trial, covering the <strong>current calendar month</strong>: you get the monthly average daily sunlight for your chosen location, the per-day breakdown, and the sunny time windows for the typical day.</p>
-      <p>The free trial is once per installation only. It does not include the 12-month annual report and does not support image export.</p>
+      <p>The free trial is counted <strong>per device</strong>: one trial per device, gone once used, and deleting then reinstalling the app does not grant another one. The trial only covers the <strong>current calendar month</strong> and cannot be pointed at any other month. It does not include the 12-month annual report and does not support image export.</p>
+    </details>
+
+    <details>
+      <summary>I deleted and reinstalled the app — why is my free trial gone?</summary>
+      <p>The free trial is counted <strong>per device</strong> and is granted only once. The flag is kept both in the app and in the iOS Keychain, so deleting and reinstalling the app <strong>does not</strong> reset it. This exists to prevent unlimited free measurements through repeated reinstalls. If you hit a genuine problem (for example, you moved to a new phone but the trial already counts as used), email <a href="mailto:sursor@163.com">sursor@163.com</a> and tell us what happened.</p>
     </details>
 
     <details>
@@ -192,7 +202,7 @@ footer{margin-top:40px;color:var(--muted);font-size:13px}
 
     <details>
       <summary>Is this a subscription? Will I be charged automatically?</summary>
-      <p>No. There is <strong>no subscription and no auto-renewal</strong>. Every purchase is a one-time, fully predictable charge. The price is the one shown on the in-app purchase screen (App Store shows it in your local currency).</p>
+      <p>No subscription and no auto-renewal — nothing is ever charged just because time passes. But note how this app charges: it is <strong>pay-per-calculation</strong>. Every brand-new measurement requires a new purchase, while reports already saved in your history can be reopened and re-exported as many times as you like at <strong>no extra cost</strong>. Each charge is a fixed, predictable amount shown on the in-app purchase screen (App Store displays it in your local currency).</p>
     </details>
 
     <details>
@@ -216,14 +226,14 @@ footer{margin-top:40px;color:var(--muted);font-size:13px}
       <ol>
         <li>Go back to the home screen — the report is saved immediately, so check the top of your history list.</li>
         <li>Force-quit the app (swipe it away in the app switcher) and reopen it; unfinished purchases are re-delivered automatically.</li>
-        <li>If it is still missing, tap "Restore Purchases" under Settings once.</li>
+        <li>If it is still missing, restart your iPhone and open the app again — on launch it checks with the App Store and re-delivers any unfinished transaction.</li>
         <li>If none of the above helps, forward the Apple purchase receipt to <a href="mailto:sursor@163.com">sursor@163.com</a> and we will sort it out.</li>
       </ol>
     </details>
 
     <details>
       <summary>I got a new iPhone — can I still see my old reports?</summary>
-      <p>Generated reports live on the original device. If you migrate to a new iPhone with the same Apple ID, or restore from a backup, the history comes along. Because the app has no account and uploads nothing, any records not carried over by a backup cannot be recovered — please keep that in mind. Purchases that have not yet produced a report can be recovered with "Restore Purchases".</p>
+      <p>Generated reports live on the original device. If you migrate to a new iPhone with the same Apple ID, or restore from a backup, the history comes along. Because the app has no account and uploads nothing, any records not carried over by a backup cannot be recovered — please keep that in mind. If you were charged but no report was generated, forward the Apple purchase receipt to <a href="mailto:sursor@163.com">sursor@163.com</a> and we will help you get it re-delivered.</p>
     </details>
 
     <details>
@@ -263,7 +273,7 @@ footer{margin-top:40px;color:var(--muted);font-size:13px}
 
     <details>
       <summary>How many records can I keep?</summary>
-      <p>Up to 100. Beyond that the app prompts you to clean up. Swipe left on a record to delete it. We recommend keeping reports you paid for — deleting one means buying again to regenerate it.</p>
+      <p><strong>Reports you paid for are never cleaned up automatically</strong> — they stay until you delete them yourself. Free-trial records are capped at 100, and beyond that the app prompts you to tidy up. You can swipe left on any record to delete it, but note that a deleted paid report must be bought again to regenerate.</p>
     </details>
 
     <details>
@@ -275,7 +285,7 @@ footer{margin-top:40px;color:var(--muted);font-size:13px}
 
     <details>
       <summary>Will the name or icon change?</summary>
-      <p>Miying's subtitle is "Daylight Calculator". If the name or icon ever changes, we will mention it in the release notes — it will not affect anything you have already purchased.</p>
+      <p>Shadowseek's subtitle is "Daylight Calculator". If the name or icon ever changes, we will mention it in the release notes — it will not affect anything you have already purchased.</p>
     </details>
 
     <details>
@@ -284,7 +294,7 @@ footer{margin-top:40px;color:var(--muted);font-size:13px}
     </details>
   </div>
 
-  <footer>觅影 · Miying — Daylight Calculator</footer>
+  <footer>觅影 · Shadowseek — Daylight Calculator</footer>
 </div>
 <script>
 (function(){
