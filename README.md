@@ -1,6 +1,6 @@
 # 采光日照计 · Daylight & Sunshine Meter — 法律与支持站点
 
-《采光日照计》（Daylight & Sunshine Meter，日照时长测算专家）的隐私政策与技术支持页面，通过 GitHub Pages 对外发布。
+《采光日照计》（Daylight & Sunshine Meter，住宅光照分析专家）的隐私政策与技术支持页面，通过 GitHub Pages 对外发布。
 
 ## 线上地址（App Store 上架填写这两条）
 
