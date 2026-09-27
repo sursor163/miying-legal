@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>觅影 · 法律与支持</title>
+<title>采光日照计 · 法律与支持</title>
 <style>
 :root{--ink:#1c1917;--muted:#6b6560;--line:#e7e2d9;--am:#b45309;--am2:#f59e0b;--bg:#fffdf8}
 *{box-sizing:border-box}
@@ -32,9 +32,9 @@ footer a{color:var(--am)}
   </div>
 
   <div data-lang="zh" class="on">
-    <span class="badge">觅影 · 采光计算专家</span>
+    <span class="badge">采光日照计 · 日照时长测算专家</span>
     <h1>法律与支持中心</h1>
-    <p class="sub">本页汇总《觅影》App 的隐私政策与技术支持信息。</p>
+    <p class="sub">本页汇总《采光日照计》App 的隐私政策与技术支持信息。</p>
     <div class="grid">
       <a class="card" href="./privacy/">
         <span class="arrow">→</span>
@@ -54,9 +54,9 @@ footer a{color:var(--am)}
   </div>
 
   <div data-lang="en">
-    <span class="badge">Shadowseek · Daylight Calculator</span>
+    <span class="badge">Daylight &amp; Sunshine Meter · Sunlight Hours Calculator</span>
     <h1>Legal &amp; Support</h1>
-    <p class="sub">Privacy policy and support information for the Shadowseek app.</p>
+    <p class="sub">Privacy policy and support information for the Daylight &amp; Sunshine Meter app.</p>
     <div class="grid">
       <a class="card" href="./privacy/">
         <span class="arrow">→</span>
@@ -84,10 +84,10 @@ footer a{color:var(--am)}
     en.forEach(function(e){e.classList.toggle('on',l==='en')});
     b.textContent=l==='zh'?'English':'中文';
     document.documentElement.lang=l==='zh'?'zh-Hans':'en';
-    try{localStorage.setItem('miying-lang',l)}catch(e){}
+    try{localStorage.setItem('caiguangrizhaoji-lang',l)}catch(e){}
   }
   var saved='zh';
-  try{saved=localStorage.getItem('miying-lang')||(navigator.language||'').indexOf('zh')===0?'zh':'en'}catch(e){}
+  try{saved=localStorage.getItem('caiguangrizhaoji-lang')||(navigator.language||'').indexOf('zh')===0?'zh':'en'}catch(e){}
   set(saved);
   b.addEventListener('click',function(){set(document.documentElement.lang==='zh-Hans'?'en':'zh')});
 })();

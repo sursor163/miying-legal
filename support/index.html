@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>觅影 · 技术支持与常见问题 | Shadowseek · Support</title>
+<title>采光日照计 · 技术支持与常见问题 | Daylight &amp; Sunshine Meter · Support</title>
 <style>
 :root{--ink:#1c1917;--muted:#6b6560;--line:#e7e2d9;--am:#b45309;--am2:#f59e0b;--bg:#fffdf8}
 *{box-sizing:border-box}
@@ -158,7 +158,7 @@ footer{margin-top:40px;color:var(--muted);font-size:13px}
 
     <details>
       <summary>App 图标或名称会变吗？</summary>
-      <p>《觅影》（英文名 Shadowseek）的副标题为"采光计算专家"。名称与图标如发生变更，我们会在版本更新说明中告知，不影响你已购买的权益。</p>
+      <p>《采光日照计》（英文名 Daylight &amp; Sunshine Meter）的副标题为"日照时长测算专家"。名称与图标如发生变更，我们会在版本更新说明中告知，不影响你已购买的权益。</p>
     </details>
 
     <details>
@@ -285,7 +285,7 @@ footer{margin-top:40px;color:var(--muted);font-size:13px}
 
     <details>
       <summary>Will the name or icon change?</summary>
-      <p>Shadowseek's subtitle is "Daylight Calculator". If the name or icon ever changes, we will mention it in the release notes — it will not affect anything you have already purchased.</p>
+      <p>Daylight &amp; Sunshine Meter's subtitle is "Sunlight Hours Calculator". If the name or icon ever changes, we will mention it in the release notes — it will not affect anything you have already purchased.</p>
     </details>
 
     <details>
@@ -294,7 +294,7 @@ footer{margin-top:40px;color:var(--muted);font-size:13px}
     </details>
   </div>
 
-  <footer>觅影 · Shadowseek — Daylight Calculator</footer>
+  <footer>采光日照计 · Daylight &amp; Sunshine Meter — Sunlight Hours Calculator</footer>
 </div>
 <script>
 (function(){
@@ -304,10 +304,10 @@ footer{margin-top:40px;color:var(--muted);font-size:13px}
     en.forEach(function(e){e.classList.toggle('on',l==='en')});
     b.textContent=l==='zh'?'English':'中文';
     document.documentElement.lang=l==='zh'?'zh-Hans':'en';
-    try{localStorage.setItem('miying-lang',l)}catch(e){}
+    try{localStorage.setItem('caiguangrizhaoji-lang',l)}catch(e){}
   }
   var saved='zh';
-  try{saved=localStorage.getItem('miying-lang')||(navigator.language||'').indexOf('zh')===0?'zh':'en'}catch(e){}
+  try{saved=localStorage.getItem('caiguangrizhaoji-lang')||(navigator.language||'').indexOf('zh')===0?'zh':'en'}catch(e){}
   set(saved);
   b.addEventListener('click',function(){set(document.documentElement.lang==='zh-Hans'?'en':'zh')});
 })();

@@ -1,11 +1,11 @@
-# 觅影 · Shadowseek — 法律与支持站点
+# 采光日照计 · Daylight & Sunshine Meter — 法律与支持站点
 
-《觅影》（Shadowseek，采光计算专家）的隐私政策与技术支持页面，通过 GitHub Pages 对外发布。
+《采光日照计》（Daylight & Sunshine Meter，日照时长测算专家）的隐私政策与技术支持页面，通过 GitHub Pages 对外发布。
 
 ## 线上地址（App Store 上架填写这两条）
 
-- 隐私政策：<https://sursor163.github.io/miying-legal/privacy/>
-- 技术支持：<https://sursor163.github.io/miying-legal/support/>
+- 隐私政策：<https://sursor163.github.io/caiguangrizhaoji-legal/privacy/>
+- 技术支持：<https://sursor163.github.io/caiguangrizhaoji-legal/support/>
 
 页面结构：
 
@@ -28,7 +28,7 @@ git push origin main:gh-pages   # 这一条不能少
 推送后约 30–60 秒生效，可用下面的命令确认线上已是新版：
 
 ```bash
-curl -s https://sursor163.github.io/miying-legal/privacy/ | grep -c "关键词"
+curl -s https://sursor163.github.io/caiguangrizhaoji-legal/privacy/ | grep -c "关键词"
 ```
 
 ## 内容维护约定
